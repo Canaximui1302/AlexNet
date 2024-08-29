@@ -76,7 +76,7 @@ model.compile(optimizer = 'sgd', loss = "categorical_crossentropy", metrics = ['
 
 model.summary()
 
-"""
+
 class myCallback(tf.keras.callbacks.Callback):
     def on_epoch_end(self,epoch,logs={}):
         if (logs.get("accuracy")==1.00 and logs.get("loss")<0.03):
@@ -95,7 +95,7 @@ history = model.fit(
 
 # Saving the model
 model.save('AlexNet_saved_model.keras')
-"""
+
 
 
 
