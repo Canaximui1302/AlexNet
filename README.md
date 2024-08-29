@@ -1,4 +1,4 @@
-The zipped dataset can be downloaded here:
+The zipped dataset for training can be downloaded here:
 > https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz
 
 
@@ -8,4 +8,5 @@ To train the model:
 To use the trained model for predicting:
 > py test.py
 
-Dataset for predicting after training is not included in the repository, you will have to create your own folder of testing images to use with the model.
+Images for testing the model is in the folder "predict".
+You can create your own dataset or add more images to the folder "predict".
