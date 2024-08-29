@@ -16,5 +16,5 @@ To use the trained model for predicting:
 * For Linux & MacOS:
 > python3 test.py
 
-Images for testing the model is in the folder "predict".
+Images for testing the model are in folder "predict".
 You can create your own dataset or add more images to the folder "predict".
