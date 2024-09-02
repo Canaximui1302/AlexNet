@@ -4,14 +4,14 @@ The zipped dataset for training can be downloaded here:
 
 To train the model:
 * For Windows PowerShell:
-> py Alexnet.py
+> python Alexnet.py
 
 * For Linux & MacOS:
 > python3 Alexnet.py
 
 To use the trained model for predicting:
 * For Windows PowerShell:
-> py test.py
+> python test.py
 
 * For Linux & MacOS:
 > python3 test.py
